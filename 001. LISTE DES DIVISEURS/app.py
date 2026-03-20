@@ -5,5 +5,6 @@ def getDividers(n):
             dividersList.append(i)
     return dividersList
 
+
 #.................... test................
 # print(getDividers(25))
