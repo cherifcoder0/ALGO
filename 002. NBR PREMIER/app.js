@@ -1,6 +1,6 @@
 function isPrime(nbr){
     if(nbr>2){
-        for(i=1; i<=nbr; i++){
+        for(i=2; i<nbr; i++){
             if(nbr%i==0){
                 return false
             }
@@ -8,4 +8,4 @@ function isPrime(nbr){
         return true
     }
 }
-console.log(isPrime(12))
+console.log(isPrime(13))
