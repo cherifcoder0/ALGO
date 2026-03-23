@@ -10,4 +10,4 @@ function isPrime(nbr){
         return true
     }
 }
-console.log(isPrime(13))
+console.log(isPrime(47))
