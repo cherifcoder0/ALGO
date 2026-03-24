@@ -1,5 +1,7 @@
 def isPrime(nbr):
-    if nbr>2:
+    if nbr<2:
+        return False
+    if nbr==2:
         return True
     for i in range(2,nbr):
         if nbr%i==0:
